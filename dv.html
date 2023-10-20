@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <title>DV Survivors Spaces, Solutions, and Alternatives</title>
     <style>
-        body {
+          body {
             margin: 0;
             padding: 0;
             background-image: url('Lotus Flower DV symbol.jpg.'); 
@@ -24,7 +25,7 @@
         }
         .services {
             text-align: center;
-            background-color: rgba(255, 255, 255, 0.8);
+            background-color: rgba(250, 250, 244, 0.8);
             padding: 10px;
             margin: 10px;
             border-radius: 10px;
@@ -37,21 +38,74 @@
             font-size: 18px;
             margin-bottom: 10px;
         }
+        
+        .popup-btn {
+            background-color: #2f0138;
+            color: white;
+            border: none;
+            padding: 65px 65px;
+            cursor: pointer;
+            margin: center;
+        }
+
+        
+        .popup-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+            padding: 20px;
+        }
+
+        table {
+            width: 100%; 
+        }
+    </style>
+</head>
+<body>
+    <h2>What We Offer</h2>
+    
+    <button class="popup-btn" onclick="togglePopup('legal-resources')">Legal Resources</button>
+    <button class="popup-btn" onclick="togglePopup('mental-health-support')">Mental Health Support</button>
+    <button class="popup-btn" onclick="togglePopup('rehabilitation-programs')">Rehabilitation Programs</button>
+    <button class="popup-btn" onclick="togglePopup('peer-support-network')">Peer Support Network</button>
+    <button class="popup-btn" onclick="togglePopup('education-and-skill-building')">Education and Skill-building</button>
+
+    
+    <div id="legal-resources" class="popup-content">
+        Legal assistance and resources to help survivors navigate the legal system.
+    </div>
+    <div id="mental-health-support" class="popup-content">
+        Access to mental health professionals for emotional well-being and healing.
+    </div>
+    <div id="rehabilitation-programs" class="popup-content">
+        Programs and services aimed at the recovery and rehabilitation of survivors.
+    </div>
+    <div id="peer-support-network" class="popup-content">
+        A community of survivors providing support and understanding to one another.
+    </div>
+    <div id="education-and-skill-building" class="popup-content">
+        Opportunities for survivors to acquire new skills and education for a better future.
+    </div>
+
+    <script>
+        function togglePopup(serviceId) {
+            var popup = document.getElementById(serviceId);
+            if (popup.style.display === "block") {
+                popup.style.display = "none";
+            } else {
+                popup.style.display = "block";
+            }
+        }
+    </script>
+
     </style>
 </head>
 <body>
     <header>
         <h1>DV Survivors Spaces, Solutions, and Alternatives</h1>
     </header>
-    <div class="services">
-        <h2>What We Offer</h2>
-        <ul>
-            <li>Legal Resources</li>
-            <li>Mental Health Support</li>
-            <li>Rehabilitation Programs</li>
-            <li>Peer Support Network</li>
-            <li>Education and Skill-building</li>
-        </ul>
-    </div>
+    <a href="C:\Users\Assia\Documents\Fall Intensive Training\legal resources.html">Legal Resources</a>
 </body>
 </html>
