@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peer Support Network</title>
+    <link rel="stylesheet" href="dv.css"> <!-- Include your CSS file here -->
+</head>
+<body>
+    <h1>Peer Support Network</h1>
+
+    <div class="peer-network-info">
+        <p>Welcome to our Peer Support Network! This community is dedicated to providing support, understanding, and a safe space for individuals who have faced domestic violence.</p>
+
+        <p>Our network offers:</p>
+        <ul>
+            <li>Peer-led support groups</li>
+            <li>Online forums for sharing experiences</li>
+            <li>Community events and gatherings</li>
+            <!-- Add more network features -->
+        </ul>
+
+        <p>To join our network or for more information, please contact us:</p>
+        <p>Contact Email: example@example.com</p>
+        <p>Phone: 123-456-7890</p>
+
+        <!-- Add testimonials or other relevant information -->
+    </div>
+    <p><a href="C:\Users\Assia\Documents\Fall Intensive Training\dv.html">Back to Domestic Violence Support Page</a></p>
+
+</body>
+</html>

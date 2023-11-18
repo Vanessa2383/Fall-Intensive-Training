@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DV Rehabilitation Programs in NYS</title>
+    <link rel="stylesheet" href="dv.css"> <!-- Include your CSS file here -->
+</head>
+<body>
+    <h1>DV Rehabilitation Programs in NYS</h1>
+    
+    <div class="program-list">
+        <ul>
+            <li>
+                <h2>Housing Rights of Domestic Violence Surviviors1</h2>
+                <p>Implements State and Local Housing Protections for DV Survivios</p>
+                <p>Website: <a href="https://nhlp.org/files/Domestic%20violence%20housing%20compendium%20FINAL7.pdf">https://nhlp.org/files/Domestic%20violence%20housing%20compendium%20FINAL7.pdf</a></p>
+            </p>
+                <!-- Add more details about the program as needed -->
+            </li>
+            <li>
+                <h2>Program Name 2</h2>
+                <p>Description of Program 2</p>
+                <p>Contact Information: Contact Person, Phone Number, Email</p>
+                <!-- Add more details about the program as needed -->
+            </li>
+            <!-- Add more program entries -->
+        </ul>
+    </div>
+    <p><a href="C:\Users\Assia\Documents\Fall Intensive Training\dv.html">Back to Domestic Violence Support Page</a></p>
+
+</body>
+</html>
