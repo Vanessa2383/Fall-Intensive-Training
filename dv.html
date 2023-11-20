@@ -75,6 +75,8 @@
     <button class="popup-btn" onclick="togglePopup('peer-support-network')">Peer Support Network</button>
     <button class="popup-btn" onclick="togglePopup('education-and-skill-building')">Education and Skill-building</button>
     </strong>
+
+    <button id="redirectButton">Redirect</button>
     
     <div id="legal-resources" class="popup-content">
         Legal assistance and resources to help survivors navigate the legal system.
@@ -93,6 +95,18 @@
     </div>
 
     <script>
+        // JavaScript for toggling program details
+        window.onload = function() {
+            var programTitles = document.querySelectorAll('.program-list h2');
+
+            programTitles.forEach(function(title) {
+                title.addEventListener('click', function() {
+                    var programDetails = this.nextElementSibling;
+                    programDetails.classList.toggle('show-details');
+                });
+            });
+        };
+
         function togglePopup(serviceId) {
             var popup = document.getElementById(serviceId);
             if (popup.style.display === "block") {
@@ -118,8 +132,9 @@
     <ul>
     <li><a href="C:\Users\Assia\Documents\Fall Intensive Training\legal resources.html">Legal Resources</a></li>
     <li><a href="C:\Users\Assia\Documents\Fall Intensive Training\MH Resources.html">Mental Health Resources</a></li>
-    <li><a href="C:\Users\Assia\Documents\Fall Intensive Training\Rehabilitaton Programs">Rehabilitation Programs</a></li>
+    <li><a href="C:\Users\Assia\Documents\Fall Intensive Training\Rehabilitaton Programs.html">Rehabilitation Programs</a></li>
     <li><a href="C:\Users\Assia\Documents\Fall Intensive Training\Peer Support Network.html">Peer Support Network</a></li>
+    <li><a href="C:\Users\Assia\Documents\Fall Intensive Training\Education and Skill-Building.html">Education and Skill-Building</a></li>
 
 </ul>
 </body>
